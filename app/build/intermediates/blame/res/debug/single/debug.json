@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\animator_slide_down.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\animator\\slide_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_incorrecte.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-mdpi\\incorrecte.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_before_main.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\layout\\before_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_incorrecte.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\incorrecte.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_info.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_home_gradient_maths.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\home_gradient_maths.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_correct.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xxxhdpi\\correct.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_unnamed.jpg.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xxxhdpi\\unnamed.jpg"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_effort.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\ic_effort.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\anim_translate.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\anim\\translate.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotation.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\anim\\rotation.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_run.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xxxhdpi\\run.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_plank.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\plank.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\anim_exist_left.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\anim\\exist_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\raw_mauvaisepos.mp3.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\raw\\mauvaisepos.mp3"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_liste_histo.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\layout\\liste_histo.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\menu_master_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\menu\\master_bottom_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_incorrecte.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xxhdpi\\incorrecte.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\animator_slide_up.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\animator\\slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_correct.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-ldpi\\correct.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_run.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\run.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_correct.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\correct.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_topbk.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\ic_topbk.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_left.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\anim\\slide_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_right.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\anim\\slide_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\anim_exist_right.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\anim\\exist_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_incorrecte.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xhdpi\\incorrecte.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_correct.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-mdpi\\correct.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_run.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-ldpi\\run.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_run.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xhdpi\\run.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_unnamed.jpg.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-mdpi\\unnamed.jpg"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_info.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-mdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cardviewcurve.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable\\cardviewcurve.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_unnamed.jpg.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-ldpi\\unnamed.jpg"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tile.9.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_corr.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xhdpi\\corr.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_run.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-mdpi\\run.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_unnamed.jpg.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\unnamed.jpg"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_tfl2_logo.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xxhdpi\\tfl2_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_row.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\layout\\single_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_exit.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\exit.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_correct.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xxhdpi\\correct.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_unnamed.jpg.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xxhdpi\\unnamed.jpg"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_correct.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xhdpi\\correct.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\raw_bonee.mp3.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\raw\\bonee.mp3"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_camera.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\layout\\fragment_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_info.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-hdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_run.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xxhdpi\\run.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_incorrecte.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xxxhdpi\\incorrecte.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_incorrecte.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-ldpi\\incorrecte.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_info.png.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_unnamed.jpg.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\drawable-xhdpi\\unnamed.jpg"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_frutorials.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\layout\\card_frutorials.xml"
+    },
+    {
+        "merged": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_camera.xml.flat",
+        "source": "C:\\Users\\maher\\Downloads\\Compressed\\plank-master\\android_demo\\app\\src\\main\\res\\layout\\activity_camera.xml"
+    }
+]
