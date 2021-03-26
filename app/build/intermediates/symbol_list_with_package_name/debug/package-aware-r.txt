@@ -1761,6 +1761,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable unnamed
 id ALT
+id Annonce_EX
 id BL_TR
 id BOTTOM_END
 id BOTTOM_START
@@ -1885,6 +1886,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id collapseActionView
+id compte_re
 id confirm_button
 id container
 id content
@@ -2070,6 +2072,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id photoplanche
 id pin
 id position
 id postLayout
@@ -2272,6 +2275,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_before__exercise
 layout activity_camera
 layout activity_main
 layout app_bar_main

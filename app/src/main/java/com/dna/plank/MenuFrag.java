@@ -34,7 +34,7 @@ public class MenuFrag extends Fragment {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), CameraActivity.class);
+                Intent intent = new Intent(getActivity(), Before_Exercise.class);
                 startActivity(intent);
 
 
