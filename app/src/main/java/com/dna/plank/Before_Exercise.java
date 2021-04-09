@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Before_Exercise extends AppCompatActivity {
     TextView compre_re;
-
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
