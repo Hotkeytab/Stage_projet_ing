@@ -77,7 +77,8 @@ public class ScoreAdapter extends RecyclerView.Adapter<ScoreAdapter.ViewHolder>{
         holder.Nomex.setText("Excercice: " + person.getNomEx());
         holder.dureeEx.setText("Durée totale: " + person.getDureeEx());
         holder.TemEc.setText("Durée de pose: " + person.getDureepose());
-         Picasso.with(mContext).load(person.getImage()).placeholder(R.drawable.plank).into(holder.exImageImgV);
+        holder.ratio.setText(person.getRatio().toString());
+        Picasso.with(mContext).load(person.getImage()).placeholder(R.drawable.plank).into(holder.exImageImgV);
 
 
 
@@ -85,5 +86,5 @@ public class ScoreAdapter extends RecyclerView.Adapter<ScoreAdapter.ViewHolder>{
 
     @Override
     public int getItemCount() {
-        return mhistoricList.size();    }
+        return mhistoricList.size();}
 }

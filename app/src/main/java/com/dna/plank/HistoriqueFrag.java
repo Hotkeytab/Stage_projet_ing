@@ -49,11 +49,6 @@ public class HistoriqueFrag  extends Fragment {
         // EditText etFoo = (EditText) view.findViewById(R.id.etFoo);
 
 
-
-
-
-
-
     }
 
     private void populaterecyclerView(String filter){

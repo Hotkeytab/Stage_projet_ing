@@ -54,7 +54,6 @@ class CameraFragment : Fragment(), ActivityCompat.OnRequestPermissionsResultCall
   private val lock = Any()
   private var runClassifier = false
   private var runVocie = false
-
   private var textureView: TextureView? = null
   private  lateinit var chrono2: Chronometer
   private var drawView: DrawView? = null
@@ -64,15 +63,20 @@ class CameraFragment : Fragment(), ActivityCompat.OnRequestPermissionsResultCall
   private var textView1: TextView? = null
   private var image: ImageView? = null
   private lateinit var chrono : Chronometer
-   private var running = false;
+  private var running = false;
   private var running2 = false;
   private var lastPause: Long = 0
+  private var lastPause1: Long = 0
+
   private var btnstop: ImageView? = null
   private var textView: TextView? = null
   private lateinit var mp:MediaPlayer;
-private   var checkposeseAudio: Boolean = false;
-  private var customOrientationEventListener: CustomOrientationEventListener? = null
+  private   var checkposeseAudio: Boolean = false;
+  private   var checkposetrue: Boolean = false;
+  private   var compteur_chrono: Int = 0;
 
+
+  private var customOrientationEventListener: CustomOrientationEventListener? = null
   val ROTATION_O = 1
   val ROTATION_90 = 2
   val ROTATION_180 = 3
@@ -216,12 +220,6 @@ private   var checkposeseAudio: Boolean = false;
 
 
 
-
-
-
-
-
-
   private fun showToast(text: String, text1: String, cls: Boolean) {
     val activity = activity
     activity?.runOnUiThread {
@@ -237,11 +235,10 @@ private   var checkposeseAudio: Boolean = false;
                     it.applicationContext, // Context
                     R.drawable.correct)
           })
-
-
           textView1!!.setTextColor(Color.GREEN)
           textView1!!.text = text1
-
+          //Starchrono(this.context)
+          resumechrono1(this.context)
           resumerchrono2(this.context)
 
 
@@ -256,16 +253,7 @@ private   var checkposeseAudio: Boolean = false;
 
           textView1!!.setTextColor(Color.RED)
 
-          textView1!!.text = text1
-
-
-
-
-        }
-
-    }
-
-    }
+          textView1!!.text = text1 } } }
 
 
   /**
@@ -276,8 +264,8 @@ private   var checkposeseAudio: Boolean = false;
           container: ViewGroup?,
           savedInstanceState: Bundle?
   ): View? {
-    return inflater.inflate(R.layout.fragment_camera, container, false)
-  }
+
+    return inflater.inflate(R.layout.fragment_camera, container, false) }
 
   /**
    * Connect the buttons to their event handler.
@@ -298,12 +286,8 @@ private   var checkposeseAudio: Boolean = false;
       val cro1: Long = SystemClock.elapsedRealtime() - chrono.getBase()
       var cro2: Long = SystemClock.elapsedRealtime() - chrono2.getBase()
       var rate =0
-
-
       var stoppedMilliseconds = 0
-      var stoppedMilliseconds1 = 0
-
-
+      var stoppedMilliseconds1= 0
       val chronoText: String = chrono.getText().toString()
       val array = chronoText.split(":").toTypedArray()
       if (array.size == 2) {
@@ -328,21 +312,20 @@ private   var checkposeseAudio: Boolean = false;
 
         //rate=0
       //}
+var  t =  (stoppedMilliseconds1.toDouble() / stoppedMilliseconds.toDouble())
+      t = t*100
 
-      builder.setTitle("Synthèse exercice")
+      builder.setTitle("Synthèse exercice"+t.toUInt()+" %")
       //set message for alert dialog
-val db = DBscore(view.context)
+      val db = DBscore(view.context)
       val histo = Historique()
       histo.setDureeEx(chrono.getText().toString())
       histo.setNomEx("Planche")
       histo.setDureepose(chrono2.getText().toString())
-      histo.setRatio("12%")
-
-
+      histo.setRatio(t.toUInt().toString())
       //"Taux de réussite : " + rate.toString() + "%"
-      builder.setMessage("Durée en position correcte :" + chrono2.getText().toString() + "\n" +
-              "Durée de l'exercice :" + chrono.getText().toString() + "\n"
-             )
+      builder.setMessage("Durée en position correcte :" + chrono2.getText().toString() +
+              "\n" + "Durée de l'exercice :" + chrono.getText().toString()+ "\n")
       builder.setIcon(android.R.drawable.ic_dialog_alert)
 
       //performing positive action
@@ -430,62 +413,49 @@ val db = DBscore(view.context)
 
   private fun Starchrono(view: Context?){
 
-    if(!running){
-      chrono.setBase(SystemClock.elapsedRealtime());
+    if(!running ){
 
 
-      chrono.start()
-       running=true
+        chrono.setBase(SystemClock.elapsedRealtime());
+      //  Toast.makeText(view, checkposetrue.toString() + compteur_chrono.toString(), Toast.LENGTH_LONG).show()
+        chrono.start()
+        running = true
 
 
 
     }
   }
   private fun Starchrono2(view: Context?){
-
-
       chrono2.setBase(SystemClock.elapsedRealtime());
-
       chrono2.start()
-      running2=true
+      running2=true }
 
-
-
-
-  }
   private fun Pauserchrono2(view: Context?){
     if(running2){
-
-
-
       lastPause = chrono2.getBase() - SystemClock.elapsedRealtime();
-
-
       chrono2.stop()
       running2=false
     }}
-   private fun resumerchrono2(view: Context?){
 
+  private  fun resumechrono1(view: Context?){
+    if(!running) {
+      if(lastPause1==0.toLong()){
+        Starchrono(this.context)
+      }
+      chrono.setBase(SystemClock.elapsedRealtime() + lastPause1);
+      chrono.start();
+      running = true }
+  }
+   private fun resumerchrono2(view: Context?){
      if(!running2) {
        if(lastPause==0.toLong()){
-
-
          Starchrono2(this.context)
        }
        chrono2.setBase(SystemClock.elapsedRealtime() + lastPause);
        chrono2.start();
+       running2 = true }}
 
-
-
-       running2 = true
-
-
-     }
-
-
-    }
-  private fun Resetchrono(view: View){}
-
+  private fun Resetchrono(view: Context?){}
   private fun classifyFrame() {
     if (cameraDevice == null) return
     val estimationStartTime = SystemClock.elapsedRealtime()
@@ -502,16 +472,14 @@ val db = DBscore(view.context)
     val lastInferenceTime = SystemClock.elapsedRealtime() - estimationStartTime
     val text = String.format(/*
             "Elapsed time %.2f s\n%s %.2f %s\n%.2f", 1.0f * lastInferenceTime / 1_000,
-            direction.toString(), value, if(cls) "ok" else "nok",*/ person.score.toString()
-    )
+            direction.toString(), value, if(cls) "ok" else "nok",*/ person.score.toString())
     var text1 ="Rien à Capter"
-    if (cls)
-      text1="Correcte"
-    else
-      text1="Incorrecte"
-
-
-
+    if (cls) {
+      text1 = "Correcte"
+      checkposetrue = true
+    }else {
+      text1 = "Incorrecte"
+    }
     showToast(text, text1, cls)
   }
 
@@ -522,13 +490,8 @@ val db = DBscore(view.context)
     override fun run() {
       synchronized(lock) {
         if (runClassifier) {
-          classifyFrame()
-
-        }
-      }
-      backgroundHandler!!.post(this)
-    }
-  }
+          classifyFrame() } }
+      backgroundHandler!!.post(this) } }
 
 
   private val periodVoice = object : Runnable {
@@ -536,53 +499,38 @@ val db = DBscore(view.context)
       synchronized(lock) {
         if (!checkposeseAudio) {
           mp = MediaPlayer.create(context, R.raw.mauvaisepos)
-
           mp.start()
         }else{
           mp = MediaPlayer.create(context, R.raw.bonee)
-
-          mp.start()
-
-
-
-        }
-      }
+          mp.start() } }
      // backgroundVoiceHandler!!.post(this)
-      backgroundVoiceHandler!!.postDelayed(this, 15000)
-    }
-  }
+      backgroundVoiceHandler!!.postDelayed(this, 15000) }}
 
 
   @Synchronized
   override fun onResume() {
     super.onResume()
     startBackgroundThread()
-    startvoice()
-    Starchrono(this.context)
-
+    startvoice() //
     runClassifier = true
     runVocie=true
     backgroundHandler!!.post {
       detector = Posenet(this.context!!, "posenet_mv1_075_float_from_checkpoints.tflite")
       //detector = Cpm(this.context!!)
       //detector = Hourglass(this.context!!)
-      classifier = KeyPointClassifier()
 
-    }
+      classifier = KeyPointClassifier() }
     backgroundHandler!!.post(periodicClassify)
 
     if (textureView!!.isAvailable) {
       openCamera()
     } else {
-      textureView!!.surfaceTextureListener = surfaceTextureListener
-    }
+      textureView!!.surfaceTextureListener = surfaceTextureListener }
 
     activity?.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT
     customOrientationEventListener?.enable();
 
-    backgroundVoiceHandler!!.post(periodVoice)
-
-  }
+    backgroundVoiceHandler!!.post(periodVoice) }
 
   override fun onPause() {
     closeCamera()
@@ -712,13 +660,13 @@ val db = DBscore(view.context)
   private fun startBackgroundThread() {
     backgroundThread = HandlerThread("surfaceTextureListener").also { it.start() }
     backgroundHandler = Handler(backgroundThread!!.looper)
+
   }
 
   private fun startvoice() {
     backgroundvoice = HandlerThread("voiceListner").also { it.start() }
     backgroundVoiceHandler = Handler(backgroundvoice!!.looper)
   }
-
   /**
    * Stops the background thread and its [Handler].
    */

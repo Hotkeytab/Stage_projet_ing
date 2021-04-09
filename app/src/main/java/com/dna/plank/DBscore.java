@@ -29,46 +29,13 @@ public class DBscore   extends SQLiteOpenHelper {
     public static final String COLUMN_ADMIN_AGE = "age_admin";
     public static final String COLUMN_ADMIN_mdp = "mdp";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public DBscore(Context context) {
         super(context, DATABASE_NAME , null, DATABASE_VERSION);
     }
 
 
-
-
     @Override
     public void onCreate(SQLiteDatabase db) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         db.execSQL(" CREATE TABLE " + TABLE_NAME + " (" +
                 COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
