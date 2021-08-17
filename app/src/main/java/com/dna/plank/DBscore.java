@@ -44,12 +44,7 @@ public class DBscore   extends SQLiteOpenHelper {
                 COLUMN_temps_exercise + " TEXT NOT NULL, " +
                 COLUMN_pourc_reussit + " TEXT NOT NULL);"
         );
-        db.execSQL("INSERT INTO "+TABLE_NAME + " ( " + COLUMN_nom_exr + " , " +
-                COLUMN_temps_ecoulee + " , " + COLUMN_temps_exercise+ " , " +COLUMN_pourc_reussit+ "  ) VALUES ('Planche','02.13','06.32','13%');");
-        db.execSQL("INSERT INTO "+TABLE_NAME + " ( " + COLUMN_nom_exr + " , " +
-                COLUMN_temps_ecoulee + " , " + COLUMN_temps_exercise+ " , " +COLUMN_pourc_reussit+ "  ) VALUES ('Planche','02.13','06.32','13%');");
-        db.execSQL("INSERT INTO "+TABLE_NAME + " ( " + COLUMN_nom_exr + " , " +
-                COLUMN_temps_ecoulee + " , " + COLUMN_temps_exercise+ " , " +COLUMN_pourc_reussit+ "  ) VALUES ('Planche','02.13','06.32','13%');");
+
 
 
 
@@ -90,6 +85,8 @@ public class DBscore   extends SQLiteOpenHelper {
                 person.setNomEx(cursor.getString(cursor.getColumnIndex(COLUMN_nom_exr)));
                 person.setDureeEx(cursor.getString(cursor.getColumnIndex(COLUMN_temps_exercise)));
                 person.setDureepose(cursor.getString(cursor.getColumnIndex(COLUMN_temps_ecoulee)));
+                person.setRatio(cursor.getString(cursor.getColumnIndex(COLUMN_pourc_reussit)));
+
                 personLinkedList.add(person);
             } while (cursor.moveToNext());
         }

@@ -77,7 +77,7 @@ public class ScoreAdapter extends RecyclerView.Adapter<ScoreAdapter.ViewHolder>{
         holder.Nomex.setText("Excercice: " + person.getNomEx());
         holder.dureeEx.setText("Durée totale: " + person.getDureeEx());
         holder.TemEc.setText("Durée de pose: " + person.getDureepose());
-        holder.ratio.setText(person.getRatio().toString());
+        holder.ratio.setText(person.getRatio()+"%");
         Picasso.with(mContext).load(person.getImage()).placeholder(R.drawable.plank).into(holder.exImageImgV);
 
 

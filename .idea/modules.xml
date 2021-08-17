@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android_demo.iml" filepath="$PROJECT_DIR$/.idea/modules/android_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ai/android_demo.ai.iml" filepath="$PROJECT_DIR$/.idea/modules/ai/android_demo.ai.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android_demo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android_demo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Stage_projet_ing.iml" filepath="$PROJECT_DIR$/.idea/modules/Stage_projet_ing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ai/Stage_projet_ing.ai.iml" filepath="$PROJECT_DIR$/.idea/modules/ai/Stage_projet_ing.ai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Stage_projet_ing.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Stage_projet_ing.app.iml" />
     </modules>
   </component>
 </project>
